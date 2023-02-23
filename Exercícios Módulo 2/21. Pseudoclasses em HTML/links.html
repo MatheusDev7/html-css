@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* Seletores Personalizados
+           # = id
+           . = class
+           : = pseudo-class
+           :: = pseudo-elemento
+           > = clildren */
+        body{
+            font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+        }
+
+        a{
+            color: rgb(143, 4, 4);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: black;
+        }
+        /* a:visited serve para quando um link de um site ja foi visitado fique da cor desejada. */
+
+        a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+
+        a:active{
+            color: rgb(109, 179, 179);
+        }
+
+        .especial{
+            background-color: rgb(129, 129, 129);
+            border-radius: 4px;
+        }
+
+        .especial::before{
+            content: '=>';
+
+        }
+
+        .especial::after{
+            content: ' <= ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/MatheusDev7">Meu GitHub</a></li>
+        <li><a href="https://www.instagram.com/umattheuz/" class="especial" target="_blank">Meu Instagram</a></li>
+        <li><a href="https://www.youtube.com/channel/UC1m3nK7yPzwxbz8VHkRAlyw" class="especial" target="_blank">Meu Canal no Youtube</a></li>
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <!-- OL = order list -->
+    <!-- Para fazer uma lista, basta criar uma tag "OL", dentro desta tag usar outra tag "li" para que você possa fazer a sua lista, e se caso, tiver que fazer alguma alteração, essa tag "li" irá agilizar o processo de númeração -->
+    <ol>
+        <li>Acordar</li>
+        <li>Tomar Café</li>
+        <li>Escovar os Dentes</li>
+    </ol>
+
+    <!-- ol = lista ordenada -->
+    <!-- ul = lista não ordenada -->
+    <!-- Para fazer uma lista, numerada por 1, A, a, I ou i, basta utilizar a tag "type" dentro da tag "ol" (<ol type="x">) e escolher a opção -->
+    <!-- Se caso queira começar a lista no 3 ou C, basta usar a tag "start" juntamente dentro das outras tags (<ol type="x" start="3")  -->
+    <ol type="1" start="10">
+        <li>Começar o round</li>
+        <li>Escolher o Operador</li>
+        <li>Dronar o mapa</li>
+        <li>Localizar o Bomb</li>
+        <li>Vencer o round</li>
+    </ol>
+
+    <h2>Listas não Ordenadas</h2>
+    <!-- Se caso queira trocar os tópicos para outras opções, existem as opções: disc, circle e square, basta usar a tag "type" novamente e escolher a opção -->
+    <ul type="circle">
+        <li>Processador</li>
+        <li>Placa Mãe</li>
+        <li>Memória Ram</li>
+        <li>Placa de Vídeo</li>
+        <li>Fonte</li>
+        <li>HD </li>
+        <li>SSD</li>
+        <li>Gabinete</li>
+    </ul>
+
+    <h2>Meus agentes favoritos</h2>
+    <ol>
+        <li>Antigos</li>
+        <ol type="I">
+            <li>Thermite</li>
+            <li>Bandit</li>
+            <li>Twitch</li>
+            <li>Moozie</li>
+        </ol>
+        <li>Novos</li>
+        <ol type="I" start="5">
+            <li>Ace</li>
+            <li>Nomad</li>
+            <li>Lion</li>
+            <li>Finka</li>
+        </ol>
+
+    </ol>
+
+    <h2>Campeões do LOL mais jogados</h2>
+    <ol>
+        <li>TOP</li>
+        <ul type="square">
+            <li>Irelia</li>
+            <li>Fiora</li>
+            <li>Teemo</li>
+        </ul>
+        <li>JUNGLE</li>
+        <ul type="square">
+            <li>Graves</li>
+            <li>Kha'Zix</li>
+            <li>Lee Sin</li>
+        </ul>
+        <li>MIDDLE</li>
+        <ul type="square">
+            <li>Yasuo</li>
+            <li>Yone</li>
+            <li>Irelia</li>
+        </ul>
+        <li>BOTTON</li>
+        <ul type="square">
+            <li>Lucian</li>
+            <li>Vayne</li>
+            <li>Kai'sa</li>
+        </ul>
+        <li>SUPPORT</li>
+        <ul type="square">
+            <li>Thresh</li>
+            <li>Blitz</li>
+            <li>Rakan</li>
+        </ul>
+
+    </ol>
+
+    <!-- Para economizar tempo quando for criar uma lista, basta digitar a tag "ol>li*quantidade de linhas" -->
+    <h2>Teste</h2>
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+
+    
+</body>
+</html>

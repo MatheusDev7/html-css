@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            background-color: rgb(48, 48, 48);
+            margin: 0px;
+        }
+
+        h1{
+            box-shadow: inset 2px 2px 14px 6px rgba(0, 0, 0, 0.397);
+            border-radius: 4px;
+            padding: 3px;
+            text-align: center;
+        }
+
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        nav{
+            background-color: darkgray;
+            padding: 3px;
+            border-radius: 3px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline rgb(0, 26, 255);
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        article{
+            background-color: aquamarine;
+            border-radius: 5px;
+            box-shadow: 5px 5px 15px rgba(44, 44, 44, 0.555) ;
+            padding: 3px;
+            margin: 10px;
+        }
+
+        article > aside{
+            background-color: rgb(84, 172, 142);
+            border-radius: 3px;
+        }
+
+        #bolinha {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: aquamarine;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <!-- div = box level
+        span = inline level 
+        header = cabeçalho-->
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempore expedita illo, incidunt magnam sequi eveniet sunt nesciunt doloremque, voluptates hic explicabo at ex ipsum non nam officiis perferendis praesentium.</p>
+                <aside>
+                    Artigo escrito por Matheus Martins
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+    <div id="bolinha"></div>
+    
+    
+</body>
+</html>
