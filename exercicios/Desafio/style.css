@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding: 100px;
+
+}
+
+header > h1{
+    font: bolder 50px Arial,'Permanent Marker', cursive, Verdana, serif;
+    
+}
+
+header > p > a{
+    font-family: 'Permanent Marker', cursive;
+    color:white;
+    text-decoration: none;
+}
+
+div.normal{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 200%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 20px;
+}
+
+#img01{
+    background-image: url(imagens/background001.jpg);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 200%;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    box-shadow: inset 2px 2px 17px 2px rgba(0, 0, 0, 0.719);
+}
+
+div.imagem > p{
+    margin: 20px
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 200%;
+    color: black;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    box-shadow: inset 2px 2px 17px 2px rgba(0, 0, 0, 0.425);
+}
+
+div.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20px;
+    padding: 10px;
+}
+
+div.footer > p > a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
