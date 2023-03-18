@@ -93,7 +93,7 @@ div.footer{
     color: white;
     text-align: center;
     height: 20px;
-    padding: 10px;
+    padding: 20px 0px 20px 0px;
 }
 
 div.footer > p > a{
