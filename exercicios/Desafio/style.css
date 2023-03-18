@@ -6,59 +6,89 @@
     padding: 0px;
 }
 
-header{
+body{
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+div.header{
     background-color: black;
     color: white;
-    height: 50px;
     text-align: center;
-    padding: 100px;
 
 }
 
-header > h1{
+div.header > h1{
     font: bolder 50px Arial,'Permanent Marker', cursive, Verdana, serif;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
     
 }
 
-header > p > a{
+div.header > p{
+    padding-bottom: 50px;
+}
+
+div.header > p > a{
     font-family: 'Permanent Marker', cursive;
     color:white;
     text-decoration: none;
+    font-weight: bolder;
+}
+
+div.header a:hover{
+    text-decoration: underline;
 }
 
 div.normal{
     font-family: 'Permanent Marker', cursive;
-    font-size: 200%;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    font-size: 3.5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+div.header > p {
+    padding-bottom: 2em;
+}
+
+div.imagem{
+    background-color: rgb(51, 51, 51);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3.5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    color: white;
+    box-shadow: inset 2px 2px 17px 2px rgba(0, 0, 0, 0.719);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.imagem > p{
     margin: 20px;
+    background-color: rgba(0, 0, 0, 0.322);
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    text-shadow: 2px 2px 1px black;
+    
 }
 
 #img01{
     background-image: url(imagens/background001.jpg);
-    font-family: 'Permanent Marker', cursive;
-    font-size: 200%;
-    color: white;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    box-shadow: inset 2px 2px 17px 2px rgba(0, 0, 0, 0.719);
-}
+    background-position: right center;
 
-div.imagem > p{
-    margin: 20px
 }
 
 #img02{
     background-image: url(imagens/background002.jpg);
-    font-family: 'Permanent Marker', cursive;
-    font-size: 200%;
-    color: black;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    box-shadow: inset 2px 2px 17px 2px rgba(0, 0, 0, 0.425);
 }
 
 div.footer{
+    font-family: 'Courier New', Courier;
     background-color: black;
     color: white;
     text-align: center;
@@ -69,8 +99,13 @@ div.footer{
 div.footer > p > a{
     color: white;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
+div.footer a:hover{
+    text-decoration: underline;
+}
 
 
 
