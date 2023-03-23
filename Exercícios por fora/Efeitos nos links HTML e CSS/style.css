@@ -24,8 +24,9 @@ a:after{
     position: absolute;
     height: 3px;
     width: 0;
-    background-color: blue;
+    background-color: rgb(255, 0, 221);
     transition: .5s;
+    
 }
 a:after{
     left: 0;
@@ -39,3 +40,30 @@ a:hover:after,
 a:hover:before{
     width: 100%;
 }
+
+.Ash{
+    background-color: rgba(158, 13, 13, 0.356);
+    color: rgb(61, 7, 7);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Osa{
+    background-color: rgba(18, 10, 87, 0.301);
+    color: rgb(6, 7, 63);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Thermite{
+    background-color: rgba(90, 11, 79, 0.301);
+    color: rgb(53, 6, 47);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Jager{
+    background-color: rgba(14, 112, 28, 0.301);
+    color: rgb(6, 46, 5);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
