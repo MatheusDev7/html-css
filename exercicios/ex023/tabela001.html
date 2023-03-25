@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        table{
+            width: 350px;
+            border-radius: 3px;
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 7px;
+            text-align: center;
+        }
+
+        thead, tfoot{
+            background-color: grey;
+            color: white;
+        }
+
+        .estado{
+            background-color: rgb(208, 208, 231);text-align: left;
+            
+        }
+
+        .numero{
+            background-color: rgb(240, 240, 202);
+            text-align: right class="estado";
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes.</h1>
+    <!-- Anatomia para tabelas grandes
+        TABLE
+            TR, TD, TH
+        TBODY 
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+        
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="estado">São Paulo</td>
+                <td class="numero">46 024 937</td>
+            </tr>
+            <tr>
+                <td class="estado">Minas Gerais</td>
+                <td class="numero">20 732 660</td>
+            </tr>
+            <tr>
+                <td class="estado">Rio de Janeiro</td>
+                <td class="numero">16 615 526</td>
+            </tr>
+            <tr>
+                <td class="estado">Bahia</td>
+                <td class="numero">14 659 023</td>
+            </tr>
+            <tr>
+                <td class="estado">Paraná</td>
+                <td class="numero">11 835 379</td>
+            </tr>
+            <tr>
+                <td class="estado">Rio Grande do Sul</td>
+                <td class="numero">11 088 065</td>
+            </tr>
+            <tr>
+                <td class="estado">Pernambuco</td>
+                <td class="numero">9 051 113</td>
+            </tr>
+            <tr>
+                <td class="estado">Ceará</td>
+                <td class="numero">8 936 431</td>
+            </tr>
+            <tr>
+                <td class="estado">Pará</td>
+                <td class="numero">8 442 962</td>
+            </tr>
+            <tr>
+                <td class="estado">Santa Catarina</td>
+                <td class="numero">7 762 154</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total de Habitantes</td>
+                <td>
+                    <strong>155.148.250</strong>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
