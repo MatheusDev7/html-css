@@ -1,114 +1,250 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+
+<>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <style>
-        body{
+        body {
             font-family: 'Courier New', Courier, monospace;
         }
 
-        table{
-            width: 350px;
-            border-radius: 3px;
-            border-collapse: collapse;
+        h1 {
+            font-size: 1.5em;
+            text-align: center;
         }
 
-        td, th{
+        .tabela {
+            background-color: rgb(216, 250, 220);
+            border-radius: 10px;
+            padding: 30px 30px 50px 50px;
+            box-shadow: 2px 5px 30px 2px rgba(0, 0, 0, 0.507);
+            margin: auto;
+            width: 20%;
+            
+        }
+
+        table {
+            width: 350px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        td, th {
             border: 1px solid black;
             padding: 7px;
             text-align: center;
         }
 
-        thead, tfoot{
-            background-color: grey;
+        thead, tfoot {
+            background-color: rgb(21, 32, 18, 0.726);
             color: white;
         }
 
-        .estado{
-            background-color: rgb(208, 208, 231);text-align: left;
-            
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: rgba(21, 32, 18, 0.726);
         }
 
-        .numero{
-            background-color: rgb(240, 240, 202);
-            text-align: right class="estado";
+        tbody > tr:nth-child(odd){
+            background-color: rgb(132, 204, 129);
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: rgba(21, 32, 18, 0.726);
+            color: white;
+        }
+
+        .alimento{
+            text-align: left;
+
+        }
+
+        .quantidade {
+            text-align: right;
         }
     </style>
-</head>
+<quantidade
+
 <body>
-    <h1>Uso de tabelas grandes.</h1>
-    <!-- Anatomia para tabelas grandes
-        TABLE
-            TR, TD, TH
-        TBODY 
-            TR, TD, TH
-        TFOOT
-            TR, TD, TH
+    <div class="tabela">
+        <h1>Uso de tabelas grandes.</h1>
+        <!-- Anatomia para tabelas grandes
+            TABLE
+                CAPTION
+                THEAD
+                    TR, TD, TH
+                TBODY
+                    TR, TD, TH
+                TFOOT
+                TR, TD, TH
         
-    -->
-    <table>
-        <thead>
-            <tr>
-                <th>Estado</th>
-                <th>População</th>
-            </tr>
-        </thead>
+        -->
+        <table>
+            <caption>
+                Quantidade de cada alimento no "Estoque".
+            </caption>
+            <thead>
+                <tr>
+                    <th>Alimentos</th>
+                    <th>Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="alimento">Maça</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Pera</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Banana</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Melancia</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Goiaba</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Limão</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Pitaya</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Maracujá</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Guaraná</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Lixia</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Melão</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Arroz</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Feijão</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Lentilha</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Macarrão</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Peixe</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Carne</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Frango</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Tomate</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Cenoura</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Batata</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Alface</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Cebola</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Salsinha</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Orégano</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Páprica</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Leite</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Manteiga</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Milho</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Margarina</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Óleo</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Azeite</td>
+                    <td class="quantidade">10</td>
+                </tr>
+                <tr>
+                    <td class="alimento">Áçucar</td>
+                    <td class="quantidade">10</td>
+                </tr>
 
-        <tbody>
-            <tr>
-                <td class="estado">São Paulo</td>
-                <td class="numero">46 024 937</td>
-            </tr>
-            <tr>
-                <td class="estado">Minas Gerais</td>
-                <td class="numero">20 732 660</td>
-            </tr>
-            <tr>
-                <td class="estado">Rio de Janeiro</td>
-                <td class="numero">16 615 526</td>
-            </tr>
-            <tr>
-                <td class="estado">Bahia</td>
-                <td class="numero">14 659 023</td>
-            </tr>
-            <tr>
-                <td class="estado">Paraná</td>
-                <td class="numero">11 835 379</td>
-            </tr>
-            <tr>
-                <td class="estado">Rio Grande do Sul</td>
-                <td class="numero">11 088 065</td>
-            </tr>
-            <tr>
-                <td class="estado">Pernambuco</td>
-                <td class="numero">9 051 113</td>
-            </tr>
-            <tr>
-                <td class="estado">Ceará</td>
-                <td class="numero">8 936 431</td>
-            </tr>
-            <tr>
-                <td class="estado">Pará</td>
-                <td class="numero">8 442 962</td>
-            </tr>
-            <tr>
-                <td class="estado">Santa Catarina</td>
-                <td class="numero">7 762 154</td>
-            </tr>
-        </tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Quantidade total no estoque</td>
+                    <td>
+                        <strong>330</strong>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
 
-        <tfoot>
-            <tr>
-                <td>Total de Habitantes</td>
-                <td>
-                    <strong>155.148.250</strong>
-                </td>
-            </tr>
-        </tfoot>
-    </table>
-    
 </body>
+
 </html>
