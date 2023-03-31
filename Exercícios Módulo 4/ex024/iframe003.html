@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(18, 16, 36);
+            color: rgb(154, 154, 212);
+        }
+        
+        #tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid rgb(154, 154, 212);
+
+        }
+
+        li > a{
+            color: rgb(154, 154, 212);
+            text-decoration: none;
+        }
+
+        li > a:hover{
+            color: white;
+            text-transform: uppercase;
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi molestiae, necessitatibus eum hic ad voluptate exercitationem, earum laudantium corrupti maiores omnis in expedita? Recusandae maiores atque fuga cum neque odit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolorem id deserunt esse quos facere tenetur? Quos reiciendis maiores quas ut vero voluptatibus sunt voluptatum suscipit incidunt, aliquam tempore mollitia!</p>
+
+    <ul>
+        <li><a href="paginasteste/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginasteste/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginasteste/pag003.html" target="frame">Teceira página</a></li>
+
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque praesentium odio itaque aperiam iusto? Ab sequi nobis iure, est repellat culpa facere quasi explicabo. Quisquam placeat quidem sint nulla quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem id aspernatur dicta ducimus obcaecati unde! Consequatur sed alias distinctio? Sequi architecto atque accusantium ex similique harum temporibus hic molestiae quod?</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1> Escolha uma das opções acima.">
+        <p>Infelizmente seu navegador não é comptível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nam veniam quisquam. Quia corrupti cum dolores facere, et corporis dolorem a itaque dicta excepturi ducimus quaerat fugiat modi. Excepturi, minima?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor impedit cum culpa facere dolorem libero nulla ipsum placeat, perspiciatis praesentium! Quasi, ex veritatis dolorem fuga officiis odit veniam consequuntur ad?</p>
+</body>
+</html>
