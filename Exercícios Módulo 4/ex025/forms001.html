@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Quando usar o method: Get/Post?
+    Usar o method Get quando os dados não forem sensíveis, tipo: Peso, altura e etc.
+    Usar o method Post quando os dados forem sensíveis tipo: senha, endereço e etc.
+    -->
+    <!-- Quando utilizar o method Get, só podera usar até 3.000 bytes, igual a 3.000 letras .
+    -->
+    <!-- Para fazer o envio de arquivo deve usar o Post.
+     -->
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p>
+            <label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
