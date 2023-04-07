@@ -10,6 +10,7 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+    background: rgb(7, 7, 56);
 }
 
 header{
@@ -37,9 +38,13 @@ menu li{
 article{
     margin:20px ;
     padding: 10px;
-    background-color: rgb(50, 18, 80);
+    background-color: rgb(14, 14, 95);
     text-align: center;
     color: aqua;
 
     border-radius: 10px;
+}
+
+main > article > h2{
+    padding: 20px;
 }
